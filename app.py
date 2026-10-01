@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 st.set_page_config(
-    page_title="AB InBev Fermentation Optimizer", layout="wide"
+    page_title="Fermentation Optimizer", layout="wide"
 )
 
 st.title("🍺 Brewery Fermentation Kinetics & Energy Optimizer")
