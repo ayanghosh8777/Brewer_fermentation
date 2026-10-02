@@ -17,7 +17,7 @@ df = pd.read_csv("brewery_fermentation_data.csv")
 # Sidebar Controls
 batch_selected = st.sidebar.selectbox(
     "Select Fermentation Batch", df["batch_id"].unique()
-)
+)   
 filtered_df = df[df["batch_id"] == batch_selected]
 
 col1, col2 = st.columns(2)
